@@ -7,5 +7,3 @@ class School
   end
 
 end
-
-
