@@ -19,5 +19,10 @@ attr_accessor :name, :roster
   def grade(grade)
     roster[grade]
   end
+  def sort
+   roster.each do |number, student_array|
+        roster[number] = student_array.sort
+    end
 
+  end
 end
