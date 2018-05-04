@@ -20,11 +20,8 @@ def add_student(name, grade)
     roster[grade] << name
   end
 
-  def grade=(grade)
-    @grade = grade
+  def grade(grade)
+    roster[grade]
   end
 
-  def grade
-    @grade
-  end
 end
